@@ -6,6 +6,6 @@ def x(t):
 
 
 
-t=np.arange(-15,15,0.01)
+t=np.arange(-15,15,0.1)
 plt.plot(t,x(t),'r-')
 plt.show()
