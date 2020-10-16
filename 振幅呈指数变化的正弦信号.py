@@ -2,7 +2,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 def x(t):
-      return np.sin(t)*np.cos(8*t-200)
+      return np.exp(t)*np.cos(8*t-200)
 
 
 
