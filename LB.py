@@ -15,7 +15,7 @@ ax.spines['left'].set_position(('data',0))
 
 x = np.arange(-3, 3, 0.1)
 y1 = pow(2,a*x)
-y2 = pow(2,-a*x)
+y2 = pow(2,-a
 y3 = pow(2,0*x)
 plt.plot(x, y1)
 plt.plot(x, y2)
